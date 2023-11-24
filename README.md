@@ -1,3 +1,8 @@
+
+  public class aboutMe {
+    public static void main(Strin[] args) {
+  
+  
   Person person = new Person(  firstName: "Ivan",
                                middleName: "Hristov",
                                lastName: "Kostadinov",
@@ -16,4 +21,6 @@
 
         person.setGoal(new Goal("I aspire to join an IT company where, I can contribute to substantial projects,
         immerse myself in challenging tasks, and gain a profound understanding of programming principles to enhance my skills."));
-                
+
+   }
+}
