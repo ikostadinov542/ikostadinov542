@@ -1,10 +1,19 @@
-- 👋 Hi, I’m Ivan Kostadinov from Varna, Bugaria.
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning Java 
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me nbukostadinov@gmail.com
+  Person person = new Person(  firstName: "Ivan",
+                               middleName: "Hristov",
+                               lastName: "Kostadinov",
+                               email: "nbukostadinov@gmail.com");
 
-<!---
-ikostadinov542/ikostadinov542 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+        person.setCode(new Code("Java"));
+
+        person.setEducation(new Education("SoftUni", level: "Fundamentals", status: "Completed"));
+        person.setEducation(new Education("SoftUni", level: "Java Advance", status: "In progress..."));
+        person.setEducation(new Education("SoftUni", level: "JS Front End", status: "About to start"));
+
+
+        person.setHobbies(new Hobby("Fishing"));
+        person.setHobbies(new Hobby("PC Games"));
+        person.setHobbies(new Hobby("Cinema"));
+
+        person.setGoal(new Goal("I aspire to join an IT company where, I can contribute to substantial projects,
+        immerse myself in challenging tasks, and gain a profound understanding of programming principles to enhance my skills."));
+                
