@@ -3,17 +3,16 @@
     public static void main(Strin[] args) {
   
   
-  Person person = new Person(  firstName: "Ivan",
-                               middleName: "Hristov",
-                               lastName: "Kostadinov",
-                               email: "nbukostadinov@gmail.com");
+        Person person = new Person(  firstName: "Ivan",
+                                     middleName: "Hristov",
+                                     lastName: "Kostadinov",
+                                     email: "nbukostadinov@gmail.com");
 
         person.setCode(new Code("Java"));
 
         person.setEducation(new Education("SoftUni", level: "Fundamentals", status: "Completed"));
         person.setEducation(new Education("SoftUni", level: "Java Advance", status: "In progress..."));
         person.setEducation(new Education("SoftUni", level: "JS Front End", status: "About to start"));
-
 
         person.setHobbies(new Hobby("Fishing"));
         person.setHobbies(new Hobby("PC Games"));
