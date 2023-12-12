@@ -7,9 +7,9 @@
 
         person.setCode(new Code("Java"));
 
-        person.setEducation(new Education("SoftUni", level: "Fundamentals", status: "Completed"));
-        person.setEducation(new Education("SoftUni", level: "Java Advance", status: "In progress..."));
-        person.setEducation(new Education("SoftUni", level: "JS Front End", status: "About to start"));
+        person.setEducation(new Course("SoftUni", level: "Fundamentals", status: "Completed"));
+        person.setEducation(new Course("SoftUni", level: "Java Advance", status: "In progress..."));
+        person.setEducation(new Course("SoftUni", level: "JS Front End", status: "About to start"));
 
         person.setHobbies(new Hobby("Fishing"));
         person.setHobbies(new Hobby("PC Games"));
