@@ -8,8 +8,8 @@
         person.setCode(new Code("Java"));
 
         person.setCourse(new Course("SoftUni", level: "Fundamentals", status: "Completed"));
-        person.setCourse(new Course("SoftUni", level: "Java Advance", status: "In progress..."));
-        person.setCourse(new Course("SoftUni", level: "JS Front End", status: "About to start"));
+        person.setCourse(new Course("SoftUni", level: "Java Advance", status: "Completed"));
+        person.setCourse(new Course("SoftUni", level: "JS Front End", status: "In progress..."));
 
         person.setHobbies(new Hobby("Fishing"));
         person.setHobbies(new Hobby("PC Games"));
